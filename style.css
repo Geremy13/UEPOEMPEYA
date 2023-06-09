@@ -1,0 +1,224 @@
+.Bordes {
+    padding: 0.5%;
+    border: 0px solid black;
+    margin: 0px 5px;
+
+}
+/*NAVEGACION*/
+.BANNER-CONTENIDO {
+    width: 100%;
+    overflow:auto;
+    background-color:#222; /*COLOR DE LA CABEZERA*/
+}
+header img {
+	width: 60px;
+	float: left;
+	padding: 20px;
+    border-radius: 10%;
+}
+nav {
+    float: right;
+    padding: 50px 20px 0px 0px;
+}
+#menu-icon {
+    display: none;
+    font-size: 50px;
+}
+nav ul li{
+    font-size: 135%;
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    letter-spacing: 3,5px;
+    color: #fff;
+    border-radius: 10%;
+    box-shadow: 0px 0px 0px 1px
+    1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+nav ul li:hover {
+    background-color: #001829; /*COLOR DEL CUADRO DE LA ANIMACION*/
+    box-shadow: 10px 10px 20px
+    #E1EDF7; /*COLOR DE FONDO DE LA ANIMACION */
+    transform: translateY(-5px);
+}
+nav ul li:active {
+    transform: translateY(-1px);
+    color: #fff;
+}
+nav ul li a {
+    color: #E1EDF7;  /*COLOR DE LETRAS*/  
+    text-decoration: none;
+}
+.cabecera li a {
+    color: #FFFFFF;
+}
+/*FIN DE LA NAVEGACION*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*SLIDER*/
+.slider {
+    position: relative;
+    width: 100%;
+    height: 322px;
+    overflow: hidden;
+}
+.slider ul{
+    position: relative;
+} 
+.slider1 {
+    position:absolute;
+    width: 10%;
+    height: 322;
+    object-fit: cover;
+    transition: opacity 0.5s infinite;
+    border-radius: 100px;
+}
+.slide:first-child {
+    opacity: 1;
+}
+.slider1 img {
+    margin-top: 0.5px;
+    margin-left: 1.3%;
+}
+/*FIN DEL SLIDER*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*SECIONES Mision,Vison,Ideario*/
+h3 {
+    font-size: 155%;
+    font-weight: 500;
+    color: #524c56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0; 
+}
+p {
+    color: #524c56;
+    font-size: 130%;
+    line-height: 130%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+.one-third {
+    width: 31.5%;
+    float: left;
+    padding: 10px;
+    text-align: left;
+    border-top: px solid #1060B3 ;
+}
+/*Estos son los iconos*/
+.icon-wrap {
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    background-color: #6991ac;
+    border-radius: 125px ;
+    text-align: center;
+    margin-top: 3%;
+}
+.icon-wrap i {
+    text-align: center;
+    color: white;
+    font-size: 350%;
+    padding: 20%;
+}
+/*FIN DE SECIONES*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*MENSAJE
+.contenedor {
+    padding: 1rem;
+    margin-top: 5rem;
+}
+h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #001829;
+    border-left: 2px solid #000;
+    animation: escribir 5s steps(50) infinite
+}
+@keyframes escribir {
+    from {width: 100%;}
+    to {width: -10;}
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/*FOOTER-PIE DE PAGINA*/
+.footer {
+    background: #2186D6;   /*COLOR DEL FOOTER*/
+    width: 100%;
+    overflow: auto;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+  }  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  } 
+.footer-column {
+    flex-basis: 20%;
+    padding-bottom: 1px;
+  }  
+.footer-column h4 {
+    margin-bottom: 30px;
+  } 
+  .footer-column img {
+    width: 60px;
+    height: 90px;
+  }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }  
+ul li a {
+    color: #fff;
+    text-decoration: none;
+  } 
+.footer-text {
+    background-color: #111;
+    padding: 1px 0;
+    text-align: center;
+    color: #524c56;
+    font-size: 100%;
+  }
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+.footer-social-icons a {
+    color: #fff;
+  }
+
+/*FIN DEL FOOTER*/
+/**/
+/**/
+/**/
+/**/
+/**/
